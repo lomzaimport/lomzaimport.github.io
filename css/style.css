@@ -1,0 +1,374 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3e2723;
+    background-color: #f5f5dc;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+}
+
+header {
+    background-color: #6d4c41;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #3e2723;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-right {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-right li {
+    margin: 0 10px;
+}
+
+section.welcome h1, section.welcome h2 {
+    color: #5d4037;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3e2723;
+    color: #fff;
+}
+
+section.welcome h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #c0a080 0%, #8b4513 100%);
+    color: #fff;
+    border: 2px solid #6d4c41;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.content-block img {
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 20px;
+}
+
+.content-text {
+    width: 30%;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h1, h2 {
+    font-size: 2em;
+}
+
+.features {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #e0e0e0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #3e2723;
+    margin-top: 0;
+}
+
+.card:hover {
+    background-color: #d7ccc8;
+}
+
+.reviews {
+    text-align: center;
+    padding: 20px;
+}
+
+.review-card {
+    background-color: #f5f5dc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.review-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.review-card h3 {
+    margin: 0;
+    color: #6d4c41;
+}
+
+.review-card p {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.stars {
+    color: #ffd700;
+    font-size: 1.2em;
+}
+
+.kahawa-menu--left {
+    width: 50%;
+}
+
+.kahawa-menu--heading {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.kahawa-menu--product-wrapper {
+    border-left: 2px solid #6d4c41;
+    padding-left: 10px;
+}
+
+.kahawa-menu--product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.product--name {
+    font-weight: normal;
+}
+
+.product--price {
+    font-weight: bold;
+}
+
+.kahawa-menu {
+    background-color: #f8f1e4;
+    border: 4px solid #7e5d52;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.galery-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    width: 30%;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-about {
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-about img {
+    max-width: 40%;
+    height: auto;
+}
+
+.card-about .card-text {
+    overflow: hidden;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-about .card-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-about .card
+
+-text p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.card-about:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.contact-form {
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    background-color: #6d4c41;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #6d4c41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #5d4037;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opis serwisu - Kawiarnia KaffEjka</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar-logo">
+                <img src="../images/logo_kaffEjka.png" alt="Logo KaffEjka" style="height: 60px; width: 60px; padding-left: 80%;">
+            </div>
+            <ul class="navbar-links">
+                <li><a href="../index.html">Strona Główna</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+                <li><a href="about.html">O Nas</a></li>
+                <li><a href="blog.html">Opis serwisu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="margin-top: 20px; margin-bottom: 20px;">
+        <section class="about">
+            <h1 style="text-align: center;">O Nas</h1>
+            <div class="card-about">
+                <img src="../images/kawiarnia1.jpg" alt="Kawiarnia">
+                <div class="card-text">
+                    <h2>Nasza Historia</h2>
+                    <p>Założona w 2010 roku, nasza kawiarnia narodziła się z pasji do dobrej kawy i przytulnej atmosfery. Przez lata stała się miejscem spotkań, gdzie ludzie cieszą się wyjątkowymi smakami i przyjemnymi rozmowami. Nasza historia to opowieść o pasji i wspólnych chwilach.</p>
+                </div>
+            </div>
+            <div class="card-about">
+                <img src="../images/personel1.jpg" alt="Personel">
+                <div class="card-text">
+                    <h2>Nasz Zespół</h2>
+                    <p>Ludzie stanowią fundament naszego biznesu, który zbudowaliśmy na najważniejszych dla nas wartościach: partnerstwie, wiedzy, doświadczeniu w branży, analizie rynku i doskonałemu zapleczu sprzętowemu. The White Bear Coffee to grupa ludzi od lat promujących kulturę picia kawy w Polsce. Kochamy kawę i chcemy Wam ją dostarczać w najlepszej, najpiękniejszej i najbardziej jakościowej postaci.</p>
+                </div>
+            </div>
+            <div class="card-about">
+                <img src="../images/rozwoj.jpg" alt="Rozwój wizji">
+                <div class="card-text">
+                    <h2>Rozwój Wizji</h2>
+                    <p>Od początku staramy się rozwijać naszą wizję, tworząc nie tylko kawiarnię, ale także miejsce inspirujące dobre rozmowy i kreatywność. Planujemy poszerzyć ofertę o nowe smaki kawy i zdrowe przekąski, zachowując jednocześnie nasz autorski klimat. Chcemy kontynuować rozwój naszej społeczności, organizując wydarzenia kulturalne i warsztaty. Nasza wizja obejmuje także dbałość o środowisko, poprzez stosowanie ekologicznych rozwiązań i wspieranie lokalnych dostawców. Dążymy do stworzenia miejsca, które będzie nie tylko kawiarnią, ale także sercem wspólnoty, pełnym inspiracji i radości.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Skontaktuj się z nami</h2>
+            <form action="/submit_form.php" method="POST">
+                <label for="name">Imię i nazwisko:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Wiadomość:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Wyślij">
+            </form>
+        </section>
+    </main>
+    
+    
+
+    <footer>
+        <p>&copy; 2024 Kawiarnia KaffEjka. Wszelkie prawa zastrzeżone.</p>
+
+    
+    </footer>
+</body>
+</html>
